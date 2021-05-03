@@ -51,5 +51,6 @@ git branch: para ver el listado de ramas y la rama actual que usemos
 
 git merge "nombre": Para unir los cambios de otras ramas a la principal, antes se debe estar posicionado en la rama principal git checkout "main o master"
 
+git branch -d "nombre": para eliminar una rama que ya no necesitemos
 */
 
