@@ -27,5 +27,14 @@ git branch -M main
 git push -u origin main: sube los archivos al repositorio de github
 
 Para volver a subir los archivos modificados luego de hacerlo la primera vez, tan solo debemos subir los archivos al memoria temporal (git add .), luego añadirlo al registro (git commit -m "identificador"), por último subirlo a github con (git push)
+
+git pull: Para traer cosas desde github a nuestros archivos locales
+
+git push --tags: para subir versiones de nuestro proyecto
+    git tag "nombre" -m "descripcion": para añadir una nueva versión
+    git tag: para ver el listado de tags
+    git -d tag
+
+git revert "n° de commit": para deshacer nuestros commits
 */
 
