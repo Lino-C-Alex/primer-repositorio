@@ -1,0 +1,118 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+body div {
+  background-color: #000;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+body div nav {
+  background-color: #903749;
+  text-align: center;
+}
+
+header {
+  background-color: #2b2e4a;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  flex-basis: 1 1 200px;
+}
+
+body div header nav {
+  background-color: #e84545;
+}
+
+main {
+  background-color: #363636;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+main section:first-child {
+  background-color: #301b3f;
+  flex: 1;
+}
+
+main section:first-child article {
+  background-color: #0a043c;
+}
+
+main section:first-child article div {
+  background-color: #03506f;
+}
+
+main section:nth-child(2) {
+  background-color: #26001b;
+  flex-flow: column nowrap;
+  flex: 2;
+}
+
+main section:nth-child(2) article {
+  background-color: #810034;
+}
+
+main section:nth-child(2) section {
+  background-color: #290149;
+  display: flex;
+}
+
+main section:nth-child(2) section div {
+  background-color: #26001b;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+main section:nth-child(2) section div article {
+  background-color: #6b011f;
+  flex: 1 1 340px;
+  height: 200px;
+}
+
+main section:nth-child(2) div {
+  background-color: #383e56;
+}
+
+main aside {
+  background-color: #630000;
+  flex: 1;
+}
+
+main aside article {
+  background-color: #0f1123;
+}
+
+main aside article div {
+  background-color: #26001b;
+}
+
+main aside article div div {
+  background-color: #393232;
+}
+
+footer {
+  background-color: #1b1717;
+  display: flex;
+}
+
+footer article:first-child {
+  background-color: #630000;
+  flex: 1;
+}
+
+footer article:last-child {
+  background-color: #630000;
+  flex: 4;
+}
+
+footer article div {
+  background-color: #1c1427;
+}
