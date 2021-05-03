@@ -49,6 +49,7 @@ git branch "nombre": para crear una nueva rama
 git checkout "nombre": para hacer uso/movernos a esa rama
 git branch: para ver el listado de ramas y la rama actual que usemos
 
+git merge "nombre": Para unir los cambios de otras ramas a la principal, antes se debe estar posicionado en la rama principal git checkout "main o master"
 
 */
 
