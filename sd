@@ -1,0 +1,36 @@
+[1mdiff --git a/app.js b/app.js[m
+[1mindex 1f2b4e8..9b9a2ed 100644[m
+[1m--- a/app.js[m
+[1m+++ b/app.js[m
+[36m@@ -1,21 +1,8 @@[m
+[31m-/*                  GIT / GITHUB[m
+[31m-git init: Para iniciar un nuevo repositorio[m
+[32m+[m[32m/*[m
+[32m+[m[32m                AÑADIR UN PUNTO EN EL REGISTRO[m
+ [m
+[31m-                AÑADIR UN ARCHIVO A TEMPORAL[m
+[31m-git add<file>: para incluir los archivos a git. Ejemplo: git add index.html[m
+[31m-    A: significa que ha sido añadido a el área temporal[m
+[31m-    M: el archivo ha sido modificado[m
+[31m-    U: aún no está subido al repositorio[m
+[31m-git add . : para añadir toda la carpeta al repositorio[m
+ [m
+[31m-git status-s: muestra los archivos con los que estamos trabajando[m
+[31m-                AÑADIR UN PUNTO EN EL REGISTRO[m
+[31m-git commit: para crear un punto de control de nuestro código[m
+[31m-    -m "mensaje": para añadir un mensaje[m
+[31m-    Ejemplo git commit -m "Repositorio de ejemplo"[m
+ [m
+[31m-git log: para ver todos los commits que hemos creado[m
+[31m-    --oneline: para mostrar los identificadores[m
+ [m
+ git reset --hard (identificador): para devolver la versión a la que indiquemos. Para volver a la versión donde nos encontramos antes, solamente colocamos su identificador y volvemos a la versión previa al salto[m
+ [m
+[36m@@ -54,3 +41,7 @@[m [mgit merge "nombre": Para unir los cambios de otras ramas a la principal, antes s[m
+ git branch -d "nombre": para eliminar una rama que ya no necesitemos[m
+ */[m
+ [m
+[32m+[m[32m/*           HOSTING GRATUITO USANDO GITHUB.IO[m
+[32m+[m[32mSe crea igual que lo que ya sabemos solo que debemos añadir[m
+[32m+[m[32m"nombre de la cuenta".github.io."nombre del repositorio". Pero debe haber una página inicial para el resto de repositorios y esta debe ser "nombre de la cuenta".github.io[m
+[32m+[m[32m*/[m
